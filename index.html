@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+      <!--custom css file link-->
+      <link rel="stylesheet" href="style.css">
+      <!--font awesome cdn link-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!--header section start-->
+  <header class="header">
+    <nav class="navbar nav-1">
+        <section class="flex">
+            <a href="index.html" class="logo"><i class="fas fa-house"></i>Place of shalter real estates</a>
+
+            <ul>
+                <li><a href="#">post property</a><i class="fas fa-paper-plane"></i></li>
+            </ul>
+        </section>
+    </nav>
+    <nav class="navbar nav-2">
+        <section class="flex">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">buy</a><i class="fas fa-angle-down"></i>
+                    <ul>
+                
+                    <li><a href="#">house</a></li>
+                    <li><a href="#">flat</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">ready to move</a></li>  
+                    <li><a href="#">furnished</a></li> 
+                    </ul>
+                    </li>
+                    <li><a href="#">sell</a><i class="fas fa-angle-down"></i>
+                    <ul>
+                        <li><a href="#">post property</a></li>
+                        <li><a href="#">dashbord</a></li>
+   
+                    </ul>
+                    </li>
+                    <li><a href="#">rent</a><i class="fas fa-angle-down"></i>
+                        <ul>
+                            <li><a href="#">house</a></li>
+                            <li><a href="#">flat</a></li>
+                            <li><a href="#">shop</a></li>
+       
+                        </ul>
+                        </li>
+                    <li><a href="#">help</a><i class="fas fa-angle-down"></i>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">FAQ</a></li>
+       
+                        </ul>
+                        </li>
+                </ul>
+            </div>
+            <ul>
+                <li><a href="#">saved <i class="far fa-heart"></i></a></li>
+                <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="login.html">login</a></li>
+                        <li><a href="register.html">register</a></li>
+                    </ul> 
+                </li>
+            </ul>
+        </section>
+    </nav>
+  </header>
+  <!--header section ends-->
+
+
+  <!--home section starts-->
+  <div class="home">
+   <section class="center">
+    <form action="search.html" method="post">
+        <h3>find your perfect home</h3>
+        <div class="box">
+            <p>enter location<span>*</span></p>
+            <input type="text" name="location" required maxlength="50"
+            placeholder="enter city name" class="input">
+        </div>
+        <div class="flex">
+            <div class="box">
+                <p>property type<span>*</span></p>
+                <select name="type" class="input" required>
+                    <option value="flat">flat</option>
+                    <option value="house">houses</option>
+                     <option value="shops">shops</option>
+                    
+                </select>
+            </div>
+            <div class="box">
+                <p>how many BHK<span>*</span></p>
+                <select name="bhk" class="input" required>
+                    <option value="500000000">1 BHK</option>    
+                    <option value="500000000">2 BHK</option>
+                    <option value="500000000">3 BHK</option>
+                    <option value="500000000">4 BHK</option>
+                    <option value="500000000">5 BHK</option>
+                    <option value="500000000">6 BHK</option>
+                    <option value="500000000">7 BHK</option>
+                    <option value="500000000">8 BHK</option>
+                    <option value="500000000">9 BHK</option>
+                   
+              </select>
+              </div>  
+            <div class="box">
+                <p>minimum budget <span>*</span></p>
+                <select name="minimium" class="input" required>
+                    <option value="500000000">5 lac</option>    
+                    <option value="500000000">10 lac</option>
+                    <option value="500000000">20 lac</option>
+                    <option value="500000000">30 lac</option>
+                    <option value="500000000">40 lac</option>
+                    <option value="500000000">50 lac</option>
+                    <option value="500000000">60 lac</option>
+                    <option value="500000000">70 lac</option>
+                    <option value="500000000">80 lac</option>
+                    <option value="500000000">90 lac</option>
+                    <option value="500000000">1 cr</option>
+                    <option value="500000000">2 cr</option>
+                    <option value="500000000">3 cr</option>
+                    <option value="500000000">4 cr</option>
+                    <option value="500000000">5 cr</option>
+                    <option value="500000000">6 cr</option>
+                    <option value="500000000">7 cr</option>
+                    <option value="500000000">8 cr</option>
+                    <option value="500000000">9 cr</option>
+                    <option value="500000000">10 cr</option>
+                    <option value="500000000">15 cr</option>
+                    <option value="500000000">20 cr</option>            
+              </select>
+              </div> 
+              <div class="box">
+                <p>maximum budget<span>*</span></p>
+                <select name="maximium" class="input" required>
+                    <option value="500000000">5 lac</option>    
+                    <option value="500000000">10 lac</option>
+                    <option value="500000000">20 lac</option>
+                    <option value="500000000">30 lac</option>
+                    <option value="500000000">40 lac</option>
+                    <option value="500000000">50 lac</option>
+                    <option value="500000000">60 lac</option>
+                    <option value="500000000">70 lac</option>
+                    <option value="500000000">80 lac</option>
+                    <option value="500000000">90 lac</option>
+                    <option value="500000000">1 cr</option>
+                    <option value="500000000">2 cr</option>
+                    <option value="500000000">3 cr</option>
+                    <option value="500000000">4 cr</option>
+                    <option value="500000000">5 cr</option>
+                    <option value="500000000">6 cr</option>
+                    <option value="500000000">7 cr</option>
+                    <option value="500000000">8 cr</option>
+                    <option value="500000000">9 cr</option>
+                    <option value="500000000">10 cr</option>
+                    <option value="500000000">15 cr</option>
+                    <option value="500000000">20 cr</option>            
+              </select>
+              </div>       
+        </div>
+        <input type="submit" value="search property" name="search" class="btn">
+    </form>
+   </section>
+  </div>
+  <!--home section ends-->
+  
+  <!--services section starts-->
+  <section class="services">
+    <h1 class="heading">our services</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/buy.png" alt="">
+            <h3> buy houses</h3>
+            <p>Place of shalter real estate company helps clients purchase properties by providing listings, market analysis,<br>
+                 and professional guidance. we assist in negotiations, legal paperwork, and financing options to<br> 
+                 ensure a smooth transaction.</p>
+        </div>
+        <div class="box">
+            <img src="images/house.png" alt="">
+            <h3> rent house</h3>
+            <p>Place of shalter is real estate firm that connect landlords with tenants, manage lease agreements, and<br>
+                 ensure compliance with rental laws. We also offer property management services, <br>
+                handling maintenance, tenant relations, and rent collection.</p>
+        </div>
+        <div class="box">
+            <img src="images/house-for-sale.png" alt="">
+            <h3> sell houses</h3>
+            <p>Selling a property involves valuation, marketing, and negotiations.Place of shalter real estate company <br>
+                help homeowners and investors list their properties, find buyers, and complete legal formalities for a<br>
+                 hassle-free sale..</p>
+        </div>
+        <div class="box">
+            <img src="images/buildings.png" alt="">
+            <h3> flats and buildings</h3>
+            <p>Whether it's an apartment, residential building, or commercial complex,Place of shalter real estate company<br>
+                 facilitate buying, selling, and renting. We provide market insights, legal support, and <br>
+                property management services.</p>
+        </div>
+        <div class="box">
+            <img src="images/store.png" alt="">
+            <h3> shops and malls</h3>
+            <p>For commercial spaces, Place of shalter real estate firm assist in leasing or selling retail stores, office spaces, and<br>
+                 shopping malls. We conduct market research, find suitable locations, and handle lease<br>
+                 agreements.</p>
+        </div>
+        <div class="box">
+            <img src="images/support.png" alt="">
+            <h3> service </h3>
+            <p>Beyond transactions, Place of shalter real estate company offer property management, investment consultancy, <br>
+                legal assistance, mortgage financing, and market analysis. They ensure clients make informed <br>
+                decisions while handling all real estate-related needs.</p>
+        </div>
+    </div>
+
+  </section>
+   <!--services section ends-->
+
+   <!--listings section starts-->
+   <section class="listings">
+    <h1 class="heading">latest listings</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="admin">
+                <h3>j</h3>
+                <p>john deco</p>
+                <span>10-11-2024</span>
+            </div>
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>house</span><span>sale</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="images/download ho.jpeg" alt="">
+            </div>
+            <h3 class="name">modern flats and appartments</h3>
+            <p class="loction"><i class="fas fa-map-marker-alt"></i><span>
+                Accra,Ghana- 234568 </span></p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>3</span></p>
+                    <p><i class="fas fa-bath"></i><span>2</span></p>
+                    <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+                </div>
+                <a href="view property.html" class="btn">view property</a>
+        </div>
+        <div class="box">
+            <div class="admin">
+                <h3>j</h3>
+                <p>john deco</p>
+                <span>10-11-2024</span>
+            </div>
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>flat</span><span>sale</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="images/download (5).jpeg" alt="">
+            </div>
+            <h3 class="name">modern flats and appartments</h3>
+            <p class="loction"><i class="fas fa-map-marker-alt"></i><span>
+                Accra,Ghana- 234568 </span></p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>3</span></p>
+                    <p><i class="fas fa-bath"></i><span>2</span></p>
+                    <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+                </div>
+                <a href="view property.html" class="btn">view property</a>
+        </div>
+        <div class="box">
+            <div class="admin">
+                <h3>j</h3>
+                <p>john deco</p>
+                <span>10-11-2024</span>
+            </div>
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>flat</span><span>sale</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="images/download (6).jpeg" alt="">
+            </div>
+            <h3 class="name">modern flats and appartments</h3>
+            <p class="loction"><i class="fas fa-map-marker-alt"></i><span>
+                Accra,Ghana- 234568 </span></p>
+                <div class="flex">
+                    <p><i class="fas fa-bed"></i><span>3</span></p>
+                    <p><i class="fas fa-bath"></i><span>2</span></p>
+                    <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+                </div>
+                <a href="view property.html" class="btn">view property</a>
+        </div>
+    </div>
+   </section>
+   <!--listings section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer section start-->
+<footer class="footer">
+    <section class="flex">
+        <div class="box">
+            <a href="tel:0240114425"><i class="fas fa-phone"></i><span>0240114425</span></a>
+            <a href="tel:0240114426"><i class="fas fa-phone"></i><span>0240114426</span></a>
+            <a href="mailto:placeofshalterrealestates@gmail.com"><i class="fas fa-envelope"></i>
+                <span>placeofshalterrealestates@gmail.com</span></a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>
+                    <span>Accra, ghana</span></a>
+                   
+        </div>
+        <div class="box">
+            <a href="index.html"><span>home</span></a>
+            <a href="about.html"><span>about</span></a>
+            <a href="#contact"><span>contact</span></a>
+        </div>
+        <div class="box">
+            <a href="#"><span>facebook</span><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><span>twitter</span><i class="fab fa-twitter"></i></a>
+            <a href="#"><span>instagram</span><i class="fab fa-instagram"></i></a>
+            <a href="#"><span>linkedin</span><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+    <div class="credit">&copy;copyright @ 2025 by<span> Louis</span> all right reserved!</div>
+</footer>
+<!-- footer section end-->
+
+
+
+
+
+
+
+
+
+    <!--custom js file link-->
+    <script src="js/script.js"></script>
+</body>
+</html>
